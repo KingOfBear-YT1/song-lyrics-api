@@ -6,8 +6,8 @@ exports.index = (req, res) => {
     const fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
     
     return json(res, {
-        maintainer: 'Azhari Muhammad M <azhari.marzan@gmail.com>',
-        source: 'https://github.com/azharimm/song-lyrics-api',
+        maintainer: 'Saipul Anuar <drakipul1016@gmail.com>',
+        source: 'https://github.com/saipulanuar/song-lyrics-api',
         hot_lyrics: {
             endpoint: '/hot',
             example: fullUrl+'hot'
